@@ -10,6 +10,12 @@ header{
   margin: 40px;
   
 }
+main{
+  background: white;
+}
+.loopstudios{
+  color: white;
+}
 
 ul {
   overflow: hidden;
@@ -26,4 +32,40 @@ nav ul li a{
 }
 .hero{
   background-image: url('./images/desktop/image-hero.jpg');
+}
+.hero-text{
+  border: 1px solid white;
+  height: 140px;
+  width: 250px;
+  font-size: 35px;
+  color: white;
+  margin: 35px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  
+}
+.section1-container{
+  display: flex;
+  margin: 60px;
+}
+.interactive{
+  height: 300px;
+  width: 790px;
+  background-image: url(./images/desktop/image-interactive.jpg);
+}
+.description{
+  height: 150px;
+  width: 300px;
+}
+.sec-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-header div{
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: lighter;
+  color: hsl(0, 0%, 55%);
 }
