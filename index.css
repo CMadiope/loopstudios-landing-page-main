@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  font-family: sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  
+}
+
+ul {
+  overflow: hidden;
+}
+nav li{
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 15px 18px;
+  text-align: center;
+}
+.hero{
+  background-image: url('./images/desktop/image-hero.jpg');
+}
