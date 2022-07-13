@@ -69,3 +69,44 @@ nav ul li a{
   font-weight: lighter;
   color: hsl(0, 0%, 55%);
 }
+.mid-section{
+
+}
+.thumbnails{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.deep{
+  background-image: url(./images/desktop/image-deep-earth.jpg);
+  color: white;
+}
+.night{
+  background-image: url(./images/desktop/image-night-arcade.jpg);
+  color: white;
+}
+.soccer{
+  color: white;
+  background-image: url(./images/desktop/image-soccer-team.jpg);
+}
+.grid{
+  color: white;
+  background-image: url(./images/desktop/image-grid.jpg);
+}
+.above{
+color: white;
+background-image: url(./images/desktop/image-from-above.jpg);
+}
+.pocket{
+  color: white;
+  background-image: url(./images/desktop/image-pocket-borealis.jpg);
+}
+.curiosity{
+  color: white;
+  background-image: url(./images/desktop/image-curiosity.jpg);
+}
+.fish{
+  color: white;
+  background-image: url(./images/desktop/image-fisheye.jpg);
+}
