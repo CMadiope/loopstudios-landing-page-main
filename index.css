@@ -1,17 +1,21 @@
 body{
   margin: 0;
   padding: 0;
-  /* display: flex; */
   font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+    flex-direction: column;
 }
 header{
   display: flex;
   justify-content: space-between;
-  margin: 40px;
+  margin: 155px;
+  margin-top: 0;
   
 }
 main{
   background: white;
+  flex: 1;
 }
 .loopstudios{
   color: white;
@@ -39,7 +43,7 @@ nav ul li a{
   width: 250px;
   font-size: 35px;
   color: white;
-  margin: 35px;
+  margin: 155px;
   padding: 20px;
   text-transform: uppercase;
   font-weight: lighter;
@@ -47,7 +51,7 @@ nav ul li a{
 }
 .section1-container{
   display: flex;
-  margin: 150px;
+  margin: 155px;
 }
 .interactive{
   height: 300px;
@@ -73,10 +77,10 @@ nav ul li a{
 }
 .mid-section{
   width: 1000px;
-  margin: 155px;
+  margin: 150px;
 }
 button{
-  margin-right: 160px;
+  margin-right: 155px;
   height: 25px;
   width: 90px;
   font-size: 15px;
@@ -95,10 +99,10 @@ button:hover{
   width: 1000px;
   height: 650px;
   display: grid;
-    grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
     
 }
 .thumbnails div{
@@ -234,4 +238,69 @@ position: relative;
   text-transform: uppercase;
   width: auto;
   text-align: center;
+}
+
+footer{
+  width: 100%;
+  height: 12rem;
+  background-color: black;
+  
+}
+.footer-header{
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+footer div{
+  color: white;
+  font-weight: bolder;
+}
+.social{
+  height: 80px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.facebook{
+  height: 20px;
+  width: 20px;
+  background-image: url(./images/icon-facebook.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.twitter{
+  height: 20px;
+  width: 20px;
+  background-image: url(./images/icon-twitter.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.instagram{
+  height: 20px;
+  width: 20px;
+  background-image: url(./images/icon-instagram.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.pinterest{
+  height: 20px;
+  width: 20px;
+  background-image: url(./images/icon-pinterest.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.bottom p{
+  color: white;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
 }
