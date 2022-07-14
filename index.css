@@ -47,7 +47,7 @@ nav ul li a{
 }
 .section1-container{
   display: flex;
-  margin: 60px;
+  margin: 150px;
 }
 .interactive{
   height: 300px;
@@ -69,9 +69,27 @@ nav ul li a{
   font-size: 35px;
   font-weight: lighter;
   color: hsl(0, 0%, 55%);
+  
 }
 .mid-section{
-
+  width: 1000px;
+  margin: 155px;
+}
+button{
+  margin-right: 160px;
+  height: 25px;
+  width: 90px;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: white;
+  border: 2px solid hsl(0, 0%, 55%);
+  cursor: pointer;
+  
+}
+button:hover{
+  background-color: black;
+  color: white
+  
 }
 .thumbnails{
   width: 1000px;
@@ -82,6 +100,12 @@ nav ul li a{
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     
+}
+.thumbnails div{
+  cursor: pointer;
+}
+.thumbnails div:hover{
+  opacity: 0.5;
 }
 .deep{
   background-image: url(./images/desktop/image-deep-earth.jpg);
@@ -210,5 +234,4 @@ position: relative;
   text-transform: uppercase;
   width: auto;
   text-align: center;
-  word-spacing: 300px;
 }
